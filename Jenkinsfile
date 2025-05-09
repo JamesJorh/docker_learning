@@ -3,13 +3,13 @@ pipeline {
     
     environment {
         // 修改为您的DockerHub用户名
-        DOCKER_HUB_USERNAME = 'your-dockerhub-username'
+        DOCKER_HUB_USERNAME = 'xiatiantian44'
         // 修改为您希望的镜像名称
         IMAGE_NAME = 'docker_learning'
         // 容器名称
         CONTAINER_NAME = 'docker_learning_container'
         // 容器运行的端口映射，根据您的应用需求修改
-        CONTAINER_PORT = '8080:8080'
+        //CONTAINER_PORT = '8080:8080'
     }
     
     stages {
