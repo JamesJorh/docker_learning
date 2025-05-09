@@ -6,7 +6,7 @@
 
 ```
 .
-├── app1/                  # 应用1目录
+├── app1/                  # 应用1目 录
 │   ├── Dockerfile        # 应用1的Docker配置
 │   ├── app.py            # 应用1的Python代码
 │   └── requirements.txt  # 应用1的依赖
