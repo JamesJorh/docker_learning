@@ -1,5 +1,10 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'docker:20.10.16'
+            args '-v /var/run/docker.sock:/var/run/docker.sock'
+        }
+    }
     
     environment {
         // 修改为您的DockerHub用户名
@@ -9,7 +14,7 @@ pipeline {
         // 容器名称
         CONTAINER_NAME = 'docker_learning_container'
         // 容器运行的端口映射，根据您的应用需求修改
-        //CONTAINER_PORT = '8080:8080'
+        CONTAINER_PORT = '8080:8080'
     }
     
     stages {
@@ -61,7 +66,7 @@ pipeline {
     post {
         always {
             // 清理工作，确保登出DockerHub
-            sh "docker logout"
+            sh "docker logout || true"
         }
     }
 }
