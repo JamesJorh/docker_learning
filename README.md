@@ -27,7 +27,7 @@
 
 - 安装Docker：[Docker官方安装指南](https://docs.docker.com/get-docker/)
 - 安装Docker Compose：[Docker Compose安装指南](https://docs.docker.com/compose/install/)
-- 安装Python 3.x
+- 安装Python 3.11
 
 ## 使用方法
 
