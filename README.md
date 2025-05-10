@@ -97,7 +97,7 @@ python manage.py start
 
 您可以根据需要修改现有应用或添加新的应用：
 
-1. 创建新的应用目录（例如 `app4`）
+1. 创建新的应用目录（例如 `app4` ）
 2. 添加必要的文件（`Dockerfile`、`app.py`、`requirements.txt`）
 3. 在 `docker-compose.yml` 中添加新服务
 
