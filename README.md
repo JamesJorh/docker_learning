@@ -18,9 +18,9 @@
 │   ├── Dockerfile        # 应用3的Docker配置
 │   ├── app.py            # 应用3的Python代码
 │   └── requirements.txt  # 应用3的依赖
-├── docker-compose.yml     # Docker Compose配置文件
-├── manage.py              # 容器管理脚本
-└── README.md              # 说明文档
+├── docker-compose.yml    # Docker Compose配置文件
+├── manage.py             # 容器管理脚本
+└── README.md             # 说明文档
 ```
 
 ## 前提条件
