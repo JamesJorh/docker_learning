@@ -6,11 +6,11 @@
 
 ```
 .
-├── app1/                 # 应用1目录
+├── app1/                  # 应用1目录
 │   ├── Dockerfile        # 应用1的Docker配置
 │   ├── app.py            # 应用1的Python代码
 │   └── requirements.txt  # 应用1的依赖
-├── app2/                 # 应用2目录
+├── app2/                  # 应用2目录
 │   ├── Dockerfile        # 应用2的Docker配置
 │   ├── app.py            # 应用2的Python代码
 │   └── requirements.txt  # 应用2的依赖
@@ -97,7 +97,7 @@ python manage.py start
 
 您可以根据需要修改现有应用或添加新的应用：
 
-1. 创建新的应用目录（例如 `app4` ）
+1. 创 建新的应用目录（例如 `app4` ）
 2. 添加必要的文件（`Dockerfile`、`app.py`、`requirements.txt`）
 3. 在 `docker-compose.yml` 中添加新服务
 
