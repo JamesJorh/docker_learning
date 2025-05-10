@@ -14,7 +14,7 @@
 │   ├── Dockerfile        # 应用2的Docker配置
 │   ├── app.py            # 应用2的Python代码
 │   └── requirements.txt  # 应用2的依赖
-├── app3/                  # 应用3目录
+├── app3/                 # 应用3目录
 │   ├── Dockerfile        # 应用3的Docker配置
 │   ├── app.py            # 应用3的Python代码
 │   └── requirements.txt  # 应用3的依赖
